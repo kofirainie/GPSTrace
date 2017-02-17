@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">地图测试</string>
+    <string name="app_agent_str">Talent/%1$s-%2$s (Android %3$s;%4$s;SerialId:%5$s)</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Common Header相关 -->
+    <string name="common_header_btn_back_str">返回</string>
+    <string name="common_header_btn_ensure_str">确定</string>
+    <string name="common_header_network_remind_str">当前网络不可用，请检查你的网络设置。</string>
+
+    <!-- Common Footer相关 -->
+    <string name="common_footer_tv_homepage_str">首页</string>
+    <string name="common_footer_tv_news_str">资讯</string>
+    <string name="common_footer_tv_course_str">课程</string>
+    <string name="common_footer_tv_community_str">社区</string>
+    <string name="common_footer_tv_advanced_str">同学派</string>
+    <string name="common_footer_tv_user_str">我的</string>
+    
+    <!-- waterfall 相关 -->
+    <string name="waterfall_header_hint_normal">下拉刷新</string>
+    <string name="waterfall_header_hint_ready">松开刷新数据</string>
+    <string name="waterfall_header_hint_loading">正在加载...</string>
+    <string name="waterfall_header_last_time">上次更新时间：</string>
+    <string name="waterfall_header_noupdated_str">暂未更新过</string>
+    <string name="waterfall_header_updated_str">上次更新于%1$s前</string>
+    <string name="waterfall_header_updated_justnow_str">刚刚更新</string>
+    <string name="waterfall_header_time_error_str">时间有问题</string>
+    <string name="waterfall_footer_hint_normal">查看更多</string>
+    <string name="waterfall_footer_hint_ready">松开载入更多</string>
+    
+    <!-- MainActivity相关 -->
+    <string-array name="map_stypes_title">
+        <item>创建地图</item>
+        <item>地图交互</item>
+        <item>地图上绘制</item>
+        <item>查询地图数据</item>
+    </string-array>
+
+</resources>

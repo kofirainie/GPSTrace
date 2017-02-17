@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- app背景色 -->
+    <color name="app_background_color">#FFF3F4F4</color>
+    
+    <!-- 共用标题栏颜色,原颜色为#FF000000 -->
+    <color name="common_header_background_color">#FF45BCE3</color>
+    
+    <!-- 其他共用颜色 -->
+    <color name="white_color">#FFFFFFFF</color><!-- 白色 -->
+    <color name="common_footer_divider_color">#FFCBCBCB</color>
+    <color name="transparent_color">#00000000</color><!-- 透明色 -->
+
+</resources>
