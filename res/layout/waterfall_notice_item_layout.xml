@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_background_color"
+    android:paddingTop="1dp" >
+
+    <RelativeLayout
+        android:id="@+id/waterfall_schoole_notice_item_rlyt_content"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white_color"
+    	android:paddingLeft="12dp"
+    	android:paddingRight="12dp"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/waterfall_schoole_notice_item_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"	
+     		android:layout_gravity="left" 
+     		android:gravity="left"   
+            android:layout_weight="1"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:lineSpacingExtra="0.5dp"
+            android:maxLines="1"
+            android:textColor="@color/black_color"
+            android:textSize="15sp" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        	android:paddingBottom="1dp"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/waterfall_schoole_notice_item_tv_title"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/waterfall_schoole_notice_item_tv_copy_scheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"	
+	        	android:layout_gravity="left" 
+	        	android:gravity="left"   
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0.5dp"
+                android:maxLines="1"
+                android:textColor="@color/gray_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/waterfall_schoole_notice_item_tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"	
+	        	android:layout_gravity="right" 
+	        	android:gravity="right"   
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0.5dp"
+                android:maxLines="1"
+                android:textColor="@color/gray_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

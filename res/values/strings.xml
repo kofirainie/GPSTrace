@@ -38,5 +38,9 @@
         <item>地图上绘制</item>
         <item>查询地图数据</item>
     </string-array>
+    <string name="main_type_tile_srr">地图模块%1$s/%2$s</string>
+    
+    <string name="notice_content_transmited_tip">[已转发]</string>
+	<string name="notice_content_untransmit_tip">[未转发]</string>
 
 </resources>
