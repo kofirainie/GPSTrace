@@ -15,16 +15,16 @@
         <include layout="@layout/common_header_layout" />
     </LinearLayout>
 
-    <com.maptest.lmq.dlrc.view.WaterfallListView
+    <com.gpstrace.dlrc.view.WaterfallListView
         android:id="@+id/main_list_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/main_llyt_header_layout"
         android:fastScrollEnabled="true"
-        android:scrollbars="none"
+        android:scrollbars="none" 
         android:scrollingCache="false"
         custom:listSelector="@color/transparent_color"
         custom:plaColumnNumber="1" >
-    </com.maptest.lmq.dlrc.view.WaterfallListView>
+    </com.gpstrace.dlrc.view.WaterfallListView>
 
 </RelativeLayout>

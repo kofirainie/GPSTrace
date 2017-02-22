@@ -2,8 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/map_type_title_rl"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/black_color"
+    android:layout_height="170dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/white_color"
+    android:gravity="center"
+    android:orientation="vertical"
     android:paddingBottom="1dp"
     android:paddingTop="6dp" >
 
@@ -17,12 +20,12 @@
         android:id="@+id/map_type_title_ll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="6dp"
-        android:paddingBottom="6dp"
+        android:layout_below="@id/map_type_title_top_divider"
         android:layout_marginBottom="6dp"
         android:gravity="center_vertical"
-        android:layout_below="@id/map_type_title_top_divider"
-        android:orientation="horizontal" >
+        android:orientation="horizontal"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp" >
 
         <View
             android:id="@+id/nmap_type_title_bgcolor_tv"
@@ -33,7 +36,7 @@
             android:background="@color/blue_backgroud_color" />
 
         <TextView
-            android:id="@+id/map_type_title_tv"
+            android:id="@+id/map_type_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"

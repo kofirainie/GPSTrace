@@ -13,6 +13,7 @@
     <color name="gray_color">#FFA9A8A7</color><!-- 灰色 -->
     <color name="common_footer_divider_color">#FFCBCBCB</color>
     <color name="transparent_color">#00000000</color><!-- 透明色 -->
+    <color name="common_font_color">#FF474747</color><!-- 通用字体色 -->
     <color name="common_border_color">#FFE1E1E1</color><!-- 通用边框色 -->
     
     <!-- mainactivity颜色 -->
